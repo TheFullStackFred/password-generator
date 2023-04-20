@@ -1,0 +1,87 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f2937;
+  display: flex;
+}
+
+.divider {
+  background: #2f3e53;
+  height: 3px;
+  width: 500px;
+}
+
+/* Top section */
+#container {
+  margin-left: 200px;
+}
+
+#top-section {
+  margin-top: 115px;
+  margin-bottom: 35px;
+}
+
+#heading {
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#heading-higlight {
+  color: #4adf86;
+}
+
+#supporting-text {
+  font-family: 'Inter', sans-serif;
+  color: #d5d4d8;
+  margin-bottom: 50px;
+}
+
+#password-btn {
+  background: #10b981;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  padding: 10px 15px;
+  font-family: 'Inter', sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+#password-btn:active {
+  transform: translateX(2px) translateY(2px);
+}
+
+/* Bottom section */
+#bottom-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.password-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  color: #55f991;
+  background: #273549;
+  border-radius: 6px;
+  height: 40px;
+  width: 210px;
+}
